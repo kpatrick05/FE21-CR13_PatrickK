@@ -15,8 +15,8 @@
             <div class="card-body">
               <h5 class="card-title">{{event.name}}</h5>
               <hr>
-              <p class="card-text">Description:{{event.description}}</p>
-              <p class="card-text">Event Time: {{event.datetime|date('F j, Y, g:i a')}}</p>
+              <p class="card-text">{{event.description}}</p>
+              <p class="card-text">{{event.datetime|date('F j, Y, g:i a')}}</p>
               <a href="/edit/{{event.id}}" class="m-1 btn btn-warning">Edit</a>
               <a href="/delete/{{event.id}}" class="m-1 btn btn-danger">Delete</a>
               <a href="/details/{{event.id}}" class="m-1 btn btn-primary">Details</a>
