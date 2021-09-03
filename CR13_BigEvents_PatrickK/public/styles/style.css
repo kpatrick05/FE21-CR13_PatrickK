@@ -1,0 +1,19 @@
+.bg-image {
+    background: url("https://cdn.pixabay.com/photo/2016/11/14/03/21/fireworks-1822479_960_720.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background: linear-gradient(#e0e0e0, #f5f4f4);
+}
+.foo {
+    background-color: rgb(63,35,51);
+    height: 180px;
+}
